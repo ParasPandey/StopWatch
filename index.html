@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>StopWatch</h1>
+    <div class="container">
+        <div class="timer">
+            <input value="30" id="time" />
+            <div class="btn">
+                <button class="play"><i class="fas fa-play"></i></button>
+                <button class="pause"><i class="fas fa-pause"></i></button>
+            </div>
+        </div>
+        <svg>
+            <circle r="100" cx="200" cy="200" fill="transparent" stroke="green" stroke-width="15"
+                transform="rotate(-90 200 200)" />
+        </svg>
+
+
+    </div>
+    <script src="timer.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

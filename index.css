@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+h1{
+    font-size: 60px;
+    text-decoration: underline;
+}
+svg {
+  height: 400px;
+  width: 400px;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+input {
+  display: block;
+  border: none;
+  text-align: center;
+  width: 150px;
+  font-size: 50px;
+}
+button {
+  font-size: 36px;
+  border: none;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+
+.timer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
